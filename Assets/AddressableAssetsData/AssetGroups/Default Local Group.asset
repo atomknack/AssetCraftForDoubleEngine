@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 6d0acddafb4be3e43b5e285d3750527c
+  m_SerializeEntries:
+  - m_GUID: cf2a55f8f15be6845aee6ad1dfd99a08
+    m_Address: Assets/CubeNodeEditor/CubeNode.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7b816e55f77c14a4b95c9b30f010c8b0
+    m_Address: Assets/FlatNodeEditor/FlatNodeEditor.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6978f01e9bd12ba47a728525959b55d5
+    m_Address: Assets/CubeNodeRotator/CubeNodeRotator.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9342bdcd91720da4099e7a6048dfe664
+    m_Address: Assets/FlatNodeComplimentaryEditor/FlatNodeComplimentaryEditor.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 1efd3f622c868d147bb9afbc68a73518, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c6eeec46922baf8469d494cf1138daf5, type: 2}
+    - {fileID: 11400000, guid: 063b60e013508654eae1f679c8e55b17, type: 2}

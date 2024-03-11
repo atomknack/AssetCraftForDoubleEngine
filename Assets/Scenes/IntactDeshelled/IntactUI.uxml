@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="width: 300px;">
+        <ui:Button text="OpenIntactCubeNode" display-tooltip-when-elided="true" name="OpenIntactCubeNode" />
+        <ui:Button text="SaveDeshelledMesh" display-tooltip-when-elided="true" name="SaveDeshelledMesh" />
+        <ui:Button text="OpenDeshelledCubeNode" display-tooltip-when-elided="true" name="OpenDeshelledCubeNode" />
+        <ui:Button text="Clear" display-tooltip-when-elided="true" name="Clear" />
+        <ui:Button text="AddToCellMeshes" display-tooltip-when-elided="true" name="AddToCellMeshes" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/pLowPolyStyle01.uss?fileID=7433441132597879392&amp;guid=2052692fba1fa9542b8f262033f552c2&amp;type=3#pLowPolyStyle01" />
+    <ui:VisualElement name="SizeElement" style="width: 200px; right: 0; position: absolute; top: 20px;">
+        <ui:VisualElement>
+            <ui:Button text="RotateAroundY" display-tooltip-when-elided="true" name="RotateAroundY" class="buttonColored y Rotate">
+                <ui:Label text="S" display-tooltip-when-elided="true" class="buttonArrow green greenText" />
+            </ui:Button>
+            <ui:Button text="RotateAroundZ" display-tooltip-when-elided="true" name="RotateAroundZ" class="buttonColored z Rotate">
+                <ui:Label text="O" display-tooltip-when-elided="true" class="buttonArrow blue blueText" />
+            </ui:Button>
+            <ui:Button text="RotateAroundX" display-tooltip-when-elided="true" name="RotateAroundX" class="buttonColored x Rotate">
+                <ui:Label text="R" display-tooltip-when-elided="true" class="buttonArrow red redText" />
+            </ui:Button>
+            <ui:Button text="InvertYAxis" display-tooltip-when-elided="true" name="InvertYAxis" class="buttonColored y">
+                <ui:Label text="¦" display-tooltip-when-elided="true" class="buttonArrow green greenText" />
+            </ui:Button>
+            <ui:Button text="InvertZAxis" display-tooltip-when-elided="true" name="InvertZAxis" class="buttonColored z" style="-unity-font: url(&apos;project://database/Assets/Fonts/OFLFonts/Iceberg/Iceberg-Regular.ttf?fileID=12800000&amp;guid=54547ea7d9b94404b9126c7937dc963e&amp;type=3#Iceberg-Regular&apos;);">
+                <ui:Label text="\u00A2" display-tooltip-when-elided="true" class="buttonArrow blue blueText" />
+            </ui:Button>
+            <ui:Button text="InvertXAxis" display-tooltip-when-elided="true" name="InvertXAxis" class="buttonColored x">
+                <ui:Label text="§" display-tooltip-when-elided="true" class="buttonArrow red redText" />
+            </ui:Button>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

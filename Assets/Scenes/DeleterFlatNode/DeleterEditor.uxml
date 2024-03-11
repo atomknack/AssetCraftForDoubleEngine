@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="width: 25%; right: 0; position: absolute; top: 10px; min-height: 800px; min-width: 100px;">
+        <ui:Label text="Label" display-tooltip-when-elided="true" />
+        <ui:ListView focusable="true" name="flatNodes-list" style="max-height: 800px; min-height: 400px; min-width: 100px; height: 400px; -unity-text-outline-width: 0; -unity-text-outline-color: rgb(0, 0, 0); background-color: rgba(58, 43, 22, 0.43);" />
+        <ui:Button text="ApplyDoubleRoundFilter" display-tooltip-when-elided="true" name="ApplyDoubleRoundFilter" />
+        <ui:Button text="Export Mesh To Json" display-tooltip-when-elided="true" name="ExportMeshToJson" />
+        <ui:VisualElement style="min-height: 2px; max-height: 10px;" />
+        <ui:VisualElement style="height: 10px;" />
+        <ui:Button text="Delete Permanently" display-tooltip-when-elided="true" name="DeletePermanently" enable-rich-text="true" />
+    </ui:VisualElement>
+</ui:UXML>

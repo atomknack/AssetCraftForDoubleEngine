@@ -1,0 +1,22 @@
+//https://catlikecoding.com/unity/tutorials/license/
+Unity Tutorial License MIT-0 and CC BY-NC-SA 4.0
+All Catlike Coding Unity tutorials are available under two licenses, one for the code & assets and another for the tutorials themselves.
+
+Code & Asset License
+The below MIT-0 license applies to all code, textures, and other Unity project files that are made available as part of my tutorials. It's the MIT license without the attribution part. This means that you can use the content without restriction. You do not have to include a license file in your project. You also do not have to give me credit, but I sure appreciate it if you do.
+
+MIT No Attribution (MIT-0)
+Copyright 2022 Jasper Flick
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Giving Credit
+If you want to credit me in your work you can do so by mentioning me—Jasper Flick—and/or Catlike Coding. A link to this website—catlikecoding.com—is appreciated.
+
+Tutorial License
+The Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license applies to all my tutorials. By this I mean the actual tutorials, not what they demonstrate. It covers the text, screenshots, diagrams, graphs, animations, PDFs, and other media that together form a tutorial. It doesn't apply to the code & assets, but it does apply to their presentation: insertion and deletion styling and such.
+
+Translating My Tutorials
+You can translate my work and host it somewhere else, as long as you abide by the CC BY-NC-SA 4.0 license mentioned above. I cannot vouch for the quality of translations.

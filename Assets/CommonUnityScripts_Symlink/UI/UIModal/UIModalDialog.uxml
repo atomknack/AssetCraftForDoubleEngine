@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="background" style="width: 100%; height: 100%; background-color: rgba(169, 185, 165, 0.4); opacity: 1; align-items: center; justify-content: center; position: absolute; left: 0; top: 0; right: 0; bottom: 0; font-size: 18px; -unity-font-style: bold;">
+        <ui:VisualElement name="modalForm" style="background-color: rgb(144, 137, 137); width: 620px; height: 440px; left: 0; top: 0; border-left-width: 4px; border-right-width: 4px; border-top-width: 4px; border-bottom-width: 4px; border-bottom-color: rgb(31, 31, 31); border-left-color: rgb(31, 31, 31); border-right-color: rgb(31, 31, 31); border-top-color: rgb(31, 31, 31); position: relative; right: 0; bottom: 0; align-items: auto; justify-content: flex-start;">
+            <ui:VisualElement style="justify-content: flex-start; align-items: stretch; width: 100%; height: 80%; min-width: 90%; min-height: 80%;">
+                <ui:Label text="headerLabel" display-tooltip-when-elided="true" name="headerLabel" style="position: relative; left: auto; top: auto; justify-content: center; min-height: 40px; font-size: 24px; align-items: center; flex-direction: column; -unity-text-align: middle-center; white-space: normal; background-color: rgb(120, 120, 120);" />
+                <ui:VisualElement style="min-height: 10px;" />
+                <ui:VisualElement style="min-height: 90%; height: 90%;">
+                    <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" style="height: 90%; min-height: 90%;">
+                        <ui:Label text="modalText" display-tooltip-when-elided="true" name="modalText" style="white-space: normal; left: 3%; right: auto; max-width: 94%; -unity-font-style: normal; -unity-paragraph-spacing: 0; font-size: 20px; max-height: 90%; min-height: 90%; height: 90%;" />
+                    </ui:ScrollView>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="buttons" style="flex-direction: row; justify-content: center; font-size: 30px; min-height: 34px; align-items: stretch; left: 4%; position: absolute; top: 85%;">
+                <ui:Button text="Ok" display-tooltip-when-elided="true" name="okButton" style="align-items: stretch; min-width: 45%; font-size: 30px; background-color: rgba(101, 125, 102, 255);" />
+                <ui:Button text="Cancel" display-tooltip-when-elided="true" name="cancelButton" style="min-width: 45%; font-size: 30px; background-color: rgba(128, 104, 79, 255);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

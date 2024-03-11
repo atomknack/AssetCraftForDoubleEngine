@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="left: 10px; top: 40px; width: 25%; height: 25px;">
+        <ui:Button text="FileOpen" display-tooltip-when-elided="true" name="FileOpen" />
+        <ui:Button text="FileOpenAsDoubleRounded" display-tooltip-when-elided="true" name="FileOpenAsDoubleRounded" />
+        <ui:Button text="ExportIntactMesh" display-tooltip-when-elided="true" name="ExportIntactMesh" />
+        <ui:GroupBox style="justify-content: flex-start; flex-direction: row-reverse; min-height: 36px; max-height: 64px;">
+            <ui:Button text="Next-&gt;" display-tooltip-when-elided="true" name="next-button" style="min-height: 36px; max-height: none; height: auto; font-size: 18px;" />
+            <ui:Button text="&lt;-Prev" display-tooltip-when-elided="true" name="prev-button" style="font-size: 18px; min-height: 36px;" />
+        </ui:GroupBox>
+        <ui:VisualElement style="min-height: 20px; max-height: 48px;" />
+        <ui:Button text="SaveFlatNodeAsIs" display-tooltip-when-elided="true" enable-rich-text="true" name="SaveFlatNodeAsIs" style="min-width: 180px; height: auto; width: auto;" />
+        <ui:Button text="CreateConnectionNode" display-tooltip-when-elided="true" enable-rich-text="true" name="CreateConnectionNode" style="min-width: 180px; height: auto; width: auto;" />
+        <ui:Button text="NodeRotator" display-tooltip-when-elided="true" name="NodeRotator" />
+        <ui:Button text="ButtonM" display-tooltip-when-elided="true" name="ButtonM" />
+        <ui:Button text="EditFlatNode" display-tooltip-when-elided="true" name="ButtonOpenFlatNodeEditor" />
+    </ui:VisualElement>
+</ui:UXML>

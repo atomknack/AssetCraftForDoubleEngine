@@ -1,0 +1,32 @@
+//Holistic3d you tube channel https://www.youtube.com/watch?v=Vg-V5G2JJNY
+//y and z pretty much swiched and this make it fucked up for understanding;
+
+int values[,] = new int[width, height];
+int values[] = new int[width * height]; //flat wersion of 2d array
+//2 Dimensions flattened:
+for(int i = 0; i < length; i++)
+{
+	x = i / width;
+	y = i % height;
+}
+
+//////////////////////////////
+int values[,,] = new int[width, height, layers];
+int values[] = new int[width*height*layers];
+//3 Dimensions flattened:
+for(int i = 0; i < length; i++)
+{
+	x = i / (width * layers)
+	y = (i - x * height * layers) / layers;
+	z = i -x * width * layers - y * layers;
+}
+
+
+///////2d in Unity
+for	(int i = 0; i < count; i++)
+{
+	var cube = GameObject.Instantiate(cubePrefab);
+	int x  = i / (width * layers);
+	cube.transform.position = new Vector3(x, 0, (i - x * height *layers) / layers); //y is z, because Vector3 xyz order
+	cubes[i] = cube;
+}

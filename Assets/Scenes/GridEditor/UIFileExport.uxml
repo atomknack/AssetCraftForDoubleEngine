@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/pLowPolyStyle01.uss?fileID=7433441132597879392&amp;guid=2052692fba1fa9542b8f262033f552c2&amp;type=3#pLowPolyStyle01" />
+    <ui:VisualElement style="width: 200px;">
+        <ui:VisualElement>
+            <ui:Button text="Load" display-tooltip-when-elided="true" name="Load" class="buttonColored" />
+            <ui:Button text="Save" display-tooltip-when-elided="true" name="Save" class="buttonColored" />
+            <ui:Button text="Export full mesh" display-tooltip-when-elided="true" name="ExportMesh3d" class="buttonColored" />
+            <ui:Button text="Export decimated" display-tooltip-when-elided="true" name="ExportDecimatedMesh3d" class="buttonColored" />
+            <ui:Button text="Export as obj" display-tooltip-when-elided="true" name="ExportObj" class="buttonColored" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="left: 75%; max-width: 300px; min-width: 150px;">
+        <ui:Button text="InvertX" display-tooltip-when-elided="true" name="InvertX" style="font-size: 18px;" />
+        <ui:Button text="InvertY" display-tooltip-when-elided="true" name="InvertY" style="font-size: 18px;" />
+        <ui:Button text="InvertZ" display-tooltip-when-elided="true" name="InvertZ" style="font-size: 18px;" />
+        <ui:Button text="RotateX90" display-tooltip-when-elided="true" name="RotateX90" style="font-size: 18px;" />
+        <ui:Button text="RotateY90" display-tooltip-when-elided="true" name="RotateY90" style="font-size: 18px;" />
+        <ui:Button text="RotateZ90" display-tooltip-when-elided="true" name="RotateZ90" style="font-size: 18px;" />
+        <ui:Button text="ShiftSkipSides" display-tooltip-when-elided="true" name="LeftShiftSkipSides" style="font-size: 18px;" />
+        <ui:Button text="ExportToJson" display-tooltip-when-elided="true" name="ExportToJson" style="font-size: 18px;" />
+    </ui:VisualElement>
+</ui:UXML>

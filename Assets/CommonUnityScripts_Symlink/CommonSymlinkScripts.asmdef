@@ -1,0 +1,16 @@
+{
+    "name": "CommonSymlinkScripts",
+    "rootNamespace": "",
+    "references": [
+        "GUID:1f1cb5a45d3372343ab911a68258c21e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
